@@ -1,0 +1,55 @@
+@font-face {
+  font-family: roboto;
+  src: url(../assets/roboto.woff2);
+}
+
+/* Padding */
+$p-1: 1rem;
+$p-2: 2rem;
+$p-3: 3rem;
+$p-4: 4rem;
+$p-5: 5rem;
+
+/* Margin */
+$m-1: 1rem;
+$m-2: 2rem;
+$m-3: 3rem;
+$m-4: 4rem;
+$m-5: 5rem;
+
+/* Typography */
+$font-size-paragraph: 1rem;
+$font-size-h3: 1.875rem;
+$font-size-h2: 2.625rem;
+$font-size-h1: 3.5rem;
+
+$line-spacing-h3: 1.25rem;
+$line-spacing-paragraph: 1.5rem;
+$line-spacing-h2: 2.25rem;
+$line-spacing-h1: 3.5rem;
+
+$font-family-font-family: Roboto;
+
+/* Grid */
+$grid-template-columns: repeat(12, 1fr);
+$grid-size: 4.0625rem;
+$gap: 1rem;
+
+/* Color */
+$color-1: #6d83f2;
+$color-2: #2d57a0;
+$color-3: #ebebeb;
+$color-4: #7327d1;
+$color-5: #b87eff;
+$main-color: #282828;
+
+/* Icons */
+$height-main-icons: 2.5rem;
+$height-header-icon: 3.625rem;
+
+
+$breakpoints: (
+  "large": "max-width: 1200px",
+  "medium": "max-width: 1000px",
+  "narrow": "max-width: 800px",
+);
