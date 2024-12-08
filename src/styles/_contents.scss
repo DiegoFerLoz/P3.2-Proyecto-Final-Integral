@@ -1,0 +1,21 @@
+@use "globals" as *;
+
+body{
+    background-color: $main-color;
+    color: $color-3;
+}
+
+main {
+    #sobremi {
+        h1 {
+            width: $width-sobremi-h1;
+        }
+
+        article {
+            background-color: $color-3;
+            color: $main-color;
+            float: right;
+            border-radius: $border-radius-sobremi-article;
+        }
+    }
+}
