@@ -1,1 +1,233 @@
 @use "globals" as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+h1 {
+    font-size: $font-size-h1;
+    line-height: $line-spacing-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+    line-height: $line-spacing-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+    line-height: $line-spacing-h3;
+}
+
+p {
+    font-size: $font-size-paragraph;
+    line-height: $line-spacing-paragraph;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.m-1 {
+    margin: $m-1;
+}
+
+.m-2 {
+    margin: $m-2;
+}
+
+.m-3 {
+    margin: $m-3;
+}
+
+.m-4 {
+    margin: $m-4;
+}
+
+.m-5 {
+    margin: $m-5;
+}
+
+.mt-1 {
+    margin-top: $m-1;
+}
+
+.mt-2 {
+    margin-top: $m-2;
+}
+
+.mt-3 {
+    margin-top: $m-3;
+}
+
+.mt-4 {
+    margin-top: $m-4;
+}
+
+.mt-5 {
+    margin-top: $m-5;
+}
+
+.mb-1 {
+    margin-bottom: $m-1;
+}
+
+.mb-2 {
+    margin-bottom: $m-2;
+}
+
+.mb-3 {
+    margin-bottom: $m-3;
+}
+
+.mb-4 {
+    margin-bottom: $m-4;
+}
+
+.mb-5 {
+    margin-bottom: $m-5;
+}
+
+.ml-1 {
+    margin-left: $m-1;
+}
+
+.ml-2 {
+    margin-left: $m-2;
+}
+
+.ml-3 {
+    margin-left: $m-3;
+}
+
+.ml-4 {
+    margin-left: $m-4;
+}
+
+.ml-5 {
+    margin-left: $m-5;
+}
+
+.mr-1 {
+    margin-right: $m-1;
+}
+
+.mr-2 {
+    margin-right: $m-2;
+}
+
+.mr-3 {
+    margin-right: $m-3;
+}
+
+.mr-4 {
+    margin-right: $m-4;
+}
+
+.mr-5 {
+    margin-right: $m-5;
+}
+
+.p-1 {
+    padding: $m-1;
+}
+
+.p-2 {
+    padding: $m-2;
+}
+
+.p-3 {
+    padding: $m-3;
+}
+
+.p-4 {
+    padding: $m-4;
+}
+
+.p-5 {
+    padding: $m-5;
+}
+
+.pt-1 {
+    padding-top: $m-1;
+}
+
+.pt-2 {
+    padding-top: $m-2;
+}
+
+.pt-3 {
+    padding-top: $m-3;
+}
+
+.pt-4 {
+    padding-top: $m-4;
+}
+
+.pt-5 {
+    padding-top: $m-5;
+}
+
+.pb-1 {
+    padding-bottom: $m-1;
+}
+
+.pb-2 {
+    padding-bottom: $m-2;
+}
+
+.pb-3 {
+    padding-bottom: $m-3;
+}
+
+.pb-4 {
+    padding-bottom: $m-4;
+}
+
+.pb-5 {
+    padding-bottom: $m-5;
+}
+
+.pl-1 {
+    padding-left: $m-1;
+}
+
+.pl-2 {
+    padding-left: $m-2;
+}
+
+.pl-3 {
+    padding-left: $m-3;
+}
+
+.pl-4 {
+    padding-left: $m-4;
+}
+
+.pl-5 {
+    padding-left: $m-5;
+}
+
+.pr-1 {
+    padding-right: $m-1;
+}
+
+.pr-2 {
+    padding-right: $m-2;
+}
+
+.pr-3 {
+    padding-right: $m-3;
+}
+
+.pr-4 {
+    padding-right: $m-4;
+}
+
+.pr-5 {
+    padding-right: $m-5;
+}

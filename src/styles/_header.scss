@@ -1,1 +1,22 @@
 @use "globals" as *;
+
+header{
+    background-color: $color-2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-3;
+
+    i, span, h3{
+        color: $color-5;
+    }
+
+    a{
+        color: $color-3;
+
+        &:hover{
+            color: $color-5;
+            background-color: $main-color;
+        }
+    }
+}
