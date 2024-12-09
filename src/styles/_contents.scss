@@ -1,11 +1,12 @@
 @use "globals" as *;
 
-body{
+body {
     background-color: $main-color;
     color: $color-3;
 }
 
 main {
+
     #sobremi {
         h1 {
             width: $width-sobremi-h1;
@@ -14,8 +15,18 @@ main {
         article {
             background-color: $color-3;
             color: $main-color;
-            float: right;
             border-radius: $border-radius-sobremi-article;
+            display: inline-block;
+
+            &:nth-child(2){
+                float: right;
+            } 
+            
+        }
+
+        >p {
+            clear: both;
         }
     }
+
 }

@@ -30,24 +30,24 @@ p {
     line-height: $line-spacing-paragraph;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.morado-light{
+.morado-light {
     color: $color-5;
 }
 
-.morado-dark{
+.morado-dark {
     color: $color-4;
 }
 
-.azul-light{
+.azul-light {
     color: $color-1;
 }
 
-.azul-dark{
+.azul-dark {
     color: $color-2;
 }
 
@@ -71,6 +71,10 @@ a{
     margin: $m-5;
 }
 
+.m-6 {
+    margin: $m-6;
+}
+
 .mt-1 {
     margin-top: $m-1;
 }
@@ -89,6 +93,10 @@ a{
 
 .mt-5 {
     margin-top: $m-5;
+}
+
+.mt-6 {
+    margin-top: $m-6;
 }
 
 .mb-1 {
@@ -111,6 +119,10 @@ a{
     margin-bottom: $m-5;
 }
 
+.mb-6 {
+    margin-bottom: $m-6;
+}
+
 .ml-1 {
     margin-left: $m-1;
 }
@@ -129,6 +141,10 @@ a{
 
 .ml-5 {
     margin-left: $m-5;
+}
+
+.ml-6 {
+    margin-left: $m-6;
 }
 
 .mr-1 {
@@ -151,102 +167,126 @@ a{
     margin-right: $m-5;
 }
 
+.mr-6 {
+    margin-right: $m-6;
+}
+
 .p-1 {
-    padding: $m-1;
+    padding: $p-1;
 }
 
 .p-2 {
-    padding: $m-2;
+    padding: $p-2;
 }
 
 .p-3 {
-    padding: $m-3;
+    padding: $p-3;
 }
 
 .p-4 {
-    padding: $m-4;
+    padding: $p-4;
 }
 
 .p-5 {
-    padding: $m-5;
+    padding: $p-5;
+}
+
+.p-6 {
+    padding: $p-6;
 }
 
 .pt-1 {
-    padding-top: $m-1;
+    padding-top: $p-1;
 }
 
 .pt-2 {
-    padding-top: $m-2;
+    padding-top: $p-2;
 }
 
 .pt-3 {
-    padding-top: $m-3;
+    padding-top: $p-3;
 }
 
 .pt-4 {
-    padding-top: $m-4;
+    padding-top: $p-4;
 }
 
 .pt-5 {
-    padding-top: $m-5;
+    padding-top: $p-5;
+}
+
+.pt-6 {
+    padding-top: $p-6;
 }
 
 .pb-1 {
-    padding-bottom: $m-1;
+    padding-bottom: $p-1;
 }
 
 .pb-2 {
-    padding-bottom: $m-2;
+    padding-bottom: $p-2;
 }
 
 .pb-3 {
-    padding-bottom: $m-3;
+    padding-bottom: $p-3;
 }
 
 .pb-4 {
-    padding-bottom: $m-4;
+    padding-bottom: $p-4;
 }
 
 .pb-5 {
-    padding-bottom: $m-5;
+    padding-bottom: $p-5;
+}
+
+.pb-6 {
+    padding-bottom: $p-6;
 }
 
 .pl-1 {
-    padding-left: $m-1;
+    padding-left: $p-1;
 }
 
 .pl-2 {
-    padding-left: $m-2;
+    padding-left: $p-2;
 }
 
 .pl-3 {
-    padding-left: $m-3;
+    padding-left: $p-3;
 }
 
 .pl-4 {
-    padding-left: $m-4;
+    padding-left: $p-4;
 }
 
 .pl-5 {
-    padding-left: $m-5;
+    padding-left: $p-5;
+}
+
+.pl-6 {
+    padding-left: $p-6;
 }
 
 .pr-1 {
-    padding-right: $m-1;
+    padding-right: $p-1;
 }
 
 .pr-2 {
-    padding-right: $m-2;
+    padding-right: $p-2;
 }
 
 .pr-3 {
-    padding-right: $m-3;
+    padding-right: $p-3;
 }
 
 .pr-4 {
-    padding-right: $m-4;
+    padding-right: $p-4;
 }
 
 .pr-5 {
-    padding-right: $m-5;
+    padding-right: $p-5;
+}
+
+.pr-6 {
+    padding-right: $p-6;
 }

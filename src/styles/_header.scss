@@ -7,6 +7,8 @@ header {
     align-items: center;
     color: $color-3;
     position: sticky;
+    z-index: $z-index-header;
+    top: $top-header;
 
     i,
     span,
@@ -20,6 +22,7 @@ header {
         &:hover {
             color: $color-5;
             background-color: $main-color;
+            border-radius: 0.5rem;
         }
     }
 }
