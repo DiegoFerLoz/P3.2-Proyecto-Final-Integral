@@ -18,10 +18,10 @@ main {
             border-radius: $border-radius-sobremi-article;
             display: inline-block;
 
-            &:nth-child(2){
+            &:nth-child(2) {
                 float: right;
-            } 
-            
+            }
+
         }
 
         >div {
@@ -30,12 +30,17 @@ main {
     }
 
     #proyectos {
-        article{
+        h2 {
+            width: $width-proyectos-h2;
+        }
+
+        article {
             display: flex;
             flex-wrap: wrap;
             color: $main-color;
-            
-            div{
+            align-items: center;
+
+            div {
                 background-color: $color-3;
                 border-width: $border-width-proyectos-article-div;
                 border-color: $color-1;
@@ -43,11 +48,20 @@ main {
                 height: $height-proyectos-article-div;
                 width: $width-proyectos-article-div;
 
-                img{
+                img {
                     width: 100%;
                 }
             }
         }
-        
+    }
+
+    #contacto {
+        h2 {
+            width: $width-contacto-h2;
+        }
+
+        article{
+            display: flex;
+        }
     }
 }
