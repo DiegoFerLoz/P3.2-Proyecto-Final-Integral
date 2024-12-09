@@ -24,9 +24,30 @@ main {
             
         }
 
-        >p {
+        >div {
             clear: both;
         }
     }
 
+    #proyectos {
+        article{
+            display: flex;
+            flex-wrap: wrap;
+            color: $main-color;
+            
+            div{
+                background-color: $color-3;
+                border-width: $border-width-proyectos-article-div;
+                border-color: $color-1;
+                border-style: solid;
+                height: $height-proyectos-article-div;
+                width: $width-proyectos-article-div;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        
+    }
 }
