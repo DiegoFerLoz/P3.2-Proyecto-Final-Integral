@@ -24,7 +24,7 @@ main {
 
         }
 
-        >div {
+        #clear-both {
             clear: both;
         }
     }
@@ -39,18 +39,40 @@ main {
             flex-wrap: wrap;
             color: $main-color;
             align-items: center;
+            justify-content: center;
 
-            div {
+            >div {
                 background-color: $color-3;
                 border-width: $border-width-proyectos-article-div;
                 border-color: $color-1;
                 border-style: solid;
                 height: $height-proyectos-article-div;
                 width: $width-proyectos-article-div;
+                text-align: center;
+                position: relative;
 
                 img {
-                    width: 100%;
+                    width: $width-proyectos-article-div-a-img;
                 }
+
+                a {
+                    display: block;
+                    height: $height-proyectos-article-div-a;
+                    
+                    .opacidad {
+                        background-color: $color-5;
+                        height: $height-opacidad;
+                        width: $width-opacidad;
+                        position: absolute;
+                        top: $top-opacidad;
+                        opacity: $opacity-opacidad;
+
+                        &:hover {
+                            opacity: $opacity-opacidad-hover;
+                        }
+                    }
+                }
+
             }
         }
     }
@@ -60,8 +82,18 @@ main {
             width: $width-contacto-h2;
         }
 
-        article{
+        article {
             display: flex;
+
+            a {
+                color: $color-5;
+
+                &:hover {
+                    background-color: $color-1;
+                    color: $main-color;
+                }
+            }
         }
+
     }
 }

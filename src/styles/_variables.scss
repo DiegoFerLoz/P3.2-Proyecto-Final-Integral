@@ -52,22 +52,29 @@ $height-header-icon: 3.625rem;
 
 /* Sizes */
 $width-sobremi-h1: 56.25rem;
-$width-proyectos-article-div: 20rem;
+$width-proyectos-article-div: 25rem;
 $width-proyectos-h2: 62.375rem;
+$width-proyectos-article-div-a-img: 100%;
 $width-contacto-h2: 38.625rem;
+$width-opacidad: 100%;
 
-$height-proyectos-article-div: 22rem;
+$height-proyectos-article-div: 17rem;
+$height-proyectos-article-div-a: 100%;
+$height-opacidad: 100%;
 
 $border-radius-sobremi-article: 3rem;
 
 $border-width-proyectos-article-div: 2px;
 
-
 /* Positions */
 $z-index-header: 3;
 
 $top-header: 0;
+$top-opacidad: 0;
 
+
+$opacity-opacidad: 0%;
+$opacity-opacidad-hover: 35%;
 
 $breakpoints: (
   "large": "max-width: 1200px",
