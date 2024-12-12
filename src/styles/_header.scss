@@ -10,6 +10,10 @@ header {
     z-index: $z-index-header;
     top: $top-header;
 
+    @include respond-to("narrow") {
+        flex-wrap: wrap;
+    }
+
     i,
     span,
     h3 {

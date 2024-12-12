@@ -18,6 +18,10 @@ main {
             @include respond-to("medium") {
                 width: $width-sobremi-h1-medium;
             }
+
+            @include respond-to("narrow") {
+                width: $width-sobremi-h1-narrow;
+            }
         }
 
         article {
@@ -26,8 +30,16 @@ main {
             border-radius: $border-radius-sobremi-article;
             display: inline-block;
 
-            &:nth-child(2) {
+            &:nth-child(2) {    //Por algún motivo el primer article lo selecciona como el segundo hijo
                 float: right;
+            }
+
+            &:nth-child(5) {
+                margin-left: $m-6;
+
+                @include respond-to("narrow") {
+                    margin-left: $m-0;
+                }
             }
 
         }
@@ -47,6 +59,10 @@ main {
 
             @include respond-to("medium") {
                 width: $width-proyectos-h2-medium;
+            }
+
+            @include respond-to("narrow") {
+                width: $width-proyectos-h2-narrow;
             }
         }
 
@@ -99,6 +115,10 @@ main {
 
             @include respond-to("medium") {
                 width: $width-contacto-h2-medium;
+            }
+
+            @include respond-to("narrow") {
+                width: $width-contacto-h2-narrow;
             }
         }
 
