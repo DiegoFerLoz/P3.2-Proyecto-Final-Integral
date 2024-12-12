@@ -20,35 +20,54 @@ header {
         color: $color-5;
     }
 
-    .navbar {
-        display: flex;
+    .btn-hamburguesa {
+        display: none;
+        padding: 0.4rem;
+        background-color: $color-2;
+        border: none;
 
-        #dropdown-btn {
-            @include respond-to("large") {
-                &:hover {
-                    background-color: $main-color;
-                }
-    
-                &:hover + nav{
-                    display: block;
-                }
-            }
-            
+        i{
+            color: $color-1;
         }
 
-        nav {
-            h3 {
-                display: inline-block;
-
-                @include respond-to("large") {
-                    display: none;
-                }
-            }
+        @include respond-to("large") {
+            display: block;
         }
+
     }
 
-    
+    .links {
+        display: flex;
+        align-items: center;
 
+        .nav {
+            @include respond-to("large") {
+                display: none;
+                position: absolute;
+                top: $top-nav;
+                right: $right-nav;
+                background-color: $color-2;
+                padding: $p-1;
+
+                @include respond-to("small") {
+                    top: $top-nav-small;
+                }
+            }
+        }
+
+        .nav-abierta {
+            display: block;
+        }
+
+        .nav-list {
+            display: flex;
+
+            @include respond-to("large") {
+                flex-direction: column;
+            }
+        }
+
+    }
 
     a {
         color: $color-3;
