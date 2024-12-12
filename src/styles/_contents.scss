@@ -10,6 +10,14 @@ main {
     #sobremi {
         h1 {
             width: $width-sobremi-h1;
+
+            @include respond-to("large") {
+                width: $width-sobremi-h1-large;
+            }
+
+            @include respond-to("medium") {
+                width: $width-sobremi-h1-medium;
+            }
         }
 
         article {
@@ -32,6 +40,14 @@ main {
     #proyectos {
         h2 {
             width: $width-proyectos-h2;
+
+            @include respond-to("large") {
+                width: $width-proyectos-h2-large;
+            }
+
+            @include respond-to("medium") {
+                width: $width-proyectos-h2-medium;
+            }
         }
 
         article {
@@ -58,7 +74,7 @@ main {
                 a {
                     display: block;
                     height: $height-proyectos-article-div-a;
-                    
+
                     .opacidad {
                         background-color: $color-5;
                         height: $height-opacidad;
@@ -80,10 +96,15 @@ main {
     #contacto {
         h2 {
             width: $width-contacto-h2;
+
+            @include respond-to("medium") {
+                width: $width-contacto-h2-medium;
+            }
         }
 
         article {
             display: flex;
+            flex-wrap: wrap;
 
             a {
                 color: $color-5;

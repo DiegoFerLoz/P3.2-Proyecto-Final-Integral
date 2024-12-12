@@ -16,6 +16,36 @@ header {
         color: $color-5;
     }
 
+    .navbar {
+        display: flex;
+
+        #dropdown-btn {
+            @include respond-to("large") {
+                &:hover {
+                    background-color: $main-color;
+                }
+    
+                &:hover + nav{
+                    display: block;
+                }
+            }
+            
+        }
+
+        nav {
+            h3 {
+                display: inline-block;
+
+                @include respond-to("large") {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    
+
+
     a {
         color: $color-3;
 
