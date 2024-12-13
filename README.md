@@ -19,11 +19,11 @@ Como se explicó anteriormente, hemos utilizado Vite para el despligue y la orga
 
 Una vez definidas las referencias y el sistema de diseño en Figma, comienza el diseño. Y para hacer que la página sea responsiva, se utiliza un mapa de breakpoints donde se definen los saltos donde cambiará el diseño.
 
-Algo a tener en cuenta es el script de JavaScript que he incluido en index.html, pues se encarga de gesionar el menú desplegable de la barra de navegación.
+Algo a tener en cuenta es el pequeño JavaScript que he incluido en index.html, pues se encarga de gesionar el menú desplegable de la barra de navegación.
 
 ## 4. Enlaces de interés.
 
-[1. Enlace a la página desplegada en Github Pages](---)
+[1. Enlace a la página desplegada en Github Pages](https://diegoferloz.github.io/P3.2-Proyecto-Final-Integral/)
 
 [2. Enlace al diseño realizado en Figma](https://www.figma.com/design/pb2MXAe52byvnOWjBYA1cD/P3.2-Proyecto-Final-Integral?node-id=1-221&t=sXvTdtjmONB9YKZk-1)
 
