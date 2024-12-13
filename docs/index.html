@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="module" crossorigin src="./assets/main-D0kf_NNz.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/main-BsrdTfwP.css">
+  <script type="module" crossorigin src="./assets/main-DRJ6UHBk.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-Bjl4Dw2r.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
       <h1>¡Hola! Soy <span class="azul-light">Diego Fernández Lozano</span>,
         desarrollador de back-end
         apasionado de la <span class="morado-light">programación</span></h1>
-      <article class="mt-3 p-2">
+      <article class="mt-3 p-2" data-tilt>
         <h3>1 &nbsp;<span class="azul-dark">public class</span> Diegoroff { <br>
           2 &nbsp;&nbsp;&nbsp;<span class="azul-dark">private</span> String <span class="morado-dark">name</span> =
           “Diego”; <br>
@@ -46,11 +46,11 @@
       <h2 class="mt-6"><i class="fa fa-code-fork morado-dark" aria-hidden="true"></i> Mis <span
           class="azul-light">habilidades</span>
         son todo lo que he <span class="morado-light">aprendido</span> hasta hoy.</h2>
-      <article class="p-2 mt-4">
+      <article class="p-2 mt-4" data-tilt>
         <h3>1 &nbsp;String <span class="azul-dark">[ ]</span> <span class="morado-dark">habilidades</span> = { <br>
           2 &nbsp;&nbsp;&nbsp;“Java”, <br>
           3 &nbsp;&nbsp;&nbsp;“SQL”, <br>
-          4 &nbsp;&nbsp;&nbsp;“HTML5”, <br>
+          4 &nbsp;&nbsp;&nbsp;“HTML”, <br>
           5 &nbsp;&nbsp;&nbsp;“CSS”, <br>
           6 &nbsp;&nbsp;&nbsp;“SASS”, <br>
           7 &nbsp;&nbsp;&nbsp;“Git”, <br>
@@ -66,18 +66,18 @@
         fecha!
         Siempre buscando desarrollar nuevas <span class="morado-light">experiencias...</span></h2>
       <article class="mt-1 ml-1">
-        <div class="mr-4 mt-4">
+        <div class="mr-4 mt-4" data-tilt data-tilt-glare data-tilt-max-glare="1" data-tilt-scale="1.1">
           <a href="https://diegoferloz.github.io/PokedexFigmaSass/" target="_blank">
             <img src="./assets/Pokedex%201-BX54mCld.png" alt="Maquetación Pokedex">
             <p class="pt-2">Maquetación SASS Pokédex</p>
-            <div class="opacidad"></div>
+            <!-- <div class="opacidad"></div> -->
           </a>
         </div>
-        <div class="mr-4 mt-4">
+        <div class="mr-4 mt-4" data-tilt data-tilt-glare data-tilt-max-glare="1" data-tilt-scale="1.1">
           <a href="https://noniqu.github.io/proyectofinalDAWEC/" target="_blank">
             <img src="./assets/Pokedex%202-BoUEza6s.png" alt="Proyecto Pokedex">
             <p class="pt-2">Diseño Pokédex con JavaScript</p>
-            <div class="opacidad"></div>
+            <!-- <div class="opacidad"></div> -->
           </a>
         </div>
       </article>
@@ -106,7 +106,7 @@
     let estado = "cerrado";
 
     btn.addEventListener("click", () => {
-      if (estado === "cerrado"){
+      if (estado === "cerrado") {
         nav.classList.add("nav-abierta");
         estado = "aierto";
       } else {

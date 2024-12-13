@@ -17,14 +17,19 @@ Mi idea principal fue hacer un diseño simple, donde sea sencillo navegar y ver 
 ## 3. Desarrollo de la práctica.
 Como se explicó anteriormente, hemos utilizado Vite para el despligue y la organización del proyecto; SASS para las reglas de diseño y GitHub para el control de versiones.
 
-Una vez definidas las referencias y el sistema de diseño en Figma, comienza el diseño. Y para hacer que la página sea responsiva, se utiliza un mapa de breakpoints donde se definen los saltos donde cambiará el diseño.
+Una vez definidas las referencias y el sistema de diseño en Figma, comienza el diseño. Y para hacer que la página sea responsiva, se utiliza un mapa de breakpoints donde se definen los saltos donde cambiará el diseño para adaptarse al tamaño de la pantalla.
 
 Algo a tener en cuenta es el pequeño JavaScript que he incluido en index.html, pues se encarga de gesionar el menú desplegable de la barra de navegación.
 
-## 4. Enlaces de interés.
+## 4. Librería de JavaScript.
+He incluido la librería Vanilla-Tilt que permite dar animaciones a diversos elementos para que respondan según la posición del ratón al pasar por encima de ellos. Esto se puede ver en las card de los proyectos, o en los recuadros blancos de varias secciones.
+
+## 5. Enlaces de interés.
 
 [1. Enlace a la página desplegada en Github Pages](https://diegoferloz.github.io/P3.2-Proyecto-Final-Integral/)
 
 [2. Enlace al diseño realizado en Figma](https://www.figma.com/design/pb2MXAe52byvnOWjBYA1cD/P3.2-Proyecto-Final-Integral?node-id=1-221&t=sXvTdtjmONB9YKZk-1)
 
 [3. Enlace a los portfolios para inspiración](https://dev.to/anmolbaranwal/stunning-portfolios-that-will-blow-your-mind-fuel-your-creativity-226o)
+
+[4. Enlace a la librería Vanilla-Tilt](https://micku7zu.github.io/vanilla-tilt.js/)

@@ -30,7 +30,18 @@ main {
             border-radius: $border-radius-sobremi-article;
             display: inline-block;
 
-            &:nth-child(2) {    //Por algún motivo el primer article lo selecciona como el segundo hijo
+            /*--- Propiedades de vanilla-tilt ---*/
+            &:hover {
+                transform-style: preserve-3d;
+                transform: perspective(1000px);
+                h3 {
+                    transform: translateZ(50px);
+                }
+            }
+            /*-----------------------------------*/
+
+            &:nth-child(2) {
+                //Por algún motivo el primer article lo selecciona como el segundo hijo
                 float: right;
             }
 
