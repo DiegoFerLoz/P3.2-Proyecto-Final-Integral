@@ -15,6 +15,11 @@ h1 {
     @include respond-to("medium") {
         font-size: $font-size-h1-medium;
     }
+
+    @include respond-to("small") {
+        font-size: $font-size-h1-small;
+        line-height: $line-spacing-h1-small;
+    }
 }
 
 h2 {
@@ -25,12 +30,20 @@ h2 {
     @include respond-to("medium") {
         font-size: $font-size-h2-medium;
     }
+
+    @include respond-to("small") {
+        font-size: $font-size-h2-small;
+    }
 }
 
 h3 {
     font-size: $font-size-h3;
     line-height: $line-spacing-h3;
     font-weight: $font-weight-h3;
+
+    @include respond-to("small") {
+        font-size: $font-size-h3-small;
+    }
 }
 
 p {

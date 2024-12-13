@@ -22,6 +22,10 @@ main {
             @include respond-to("narrow") {
                 width: $width-sobremi-h1-narrow;
             }
+
+            @include respond-to("small") {
+                width: $width-sobremi-h1-small;
+            }
         }
 
         article {
@@ -74,6 +78,10 @@ main {
 
             @include respond-to("narrow") {
                 width: $width-proyectos-h2-narrow;
+            }
+
+            @include respond-to("small") {
+                width: $width-proyectos-h2-small;
             }
         }
 
@@ -130,6 +138,10 @@ main {
 
             @include respond-to("narrow") {
                 width: $width-contacto-h2-narrow;
+            }
+
+            @include respond-to("small") {
+                width: $width-contacto-h2-small;
             }
         }
 

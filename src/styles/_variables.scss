@@ -27,13 +27,17 @@ $margin-container-medium: 0 $m-1;
 /* Typography */
 $font-size-h1: 3.5rem;
 $font-size-h1-medium: 2.5rem;
+$font-size-h1-small: 1.7rem;
 $font-size-h2: 2.625rem;
 $font-size-h2-medium: 2.125rem;
+$font-size-h2-small: 1.5rem;
 $font-size-h3: 1.875rem;
+$font-size-h3-small: 1.5rem;
 $font-size-paragraph: 1rem;
 
 //El line height no funciona igual que en Figma.
 $line-spacing-h1: 4.5rem;
+$line-spacing-h1-small: 2.5rem;
 $line-spacing-h2: 3.5rem;
 $line-spacing-h3: 3.25rem;
 $line-spacing-paragraph: 1.5rem;
@@ -65,15 +69,18 @@ $width-sobremi-h1: 56.25rem;
 $width-sobremi-h1-large: 50rem;
 $width-sobremi-h1-medium: 35rem;
 $width-sobremi-h1-narrow: 29rem;
+$width-sobremi-h1-small: 18.75rem;
 $width-proyectos-article-div: 25rem;
 $width-proyectos-h2: 62.375rem;
 $width-proyectos-h2-large: 50rem;
 $width-proyectos-h2-medium: 35rem;
 $width-proyectos-h2-narrow: 29rem;
+$width-proyectos-h2-small: 18.75rem;
 $width-proyectos-article-div-a-img: 100%;
 $width-contacto-h2: 38.625rem;
 $width-contacto-h2-medium: 34.125rem;
 $width-contacto-h2-narrow: 29rem;
+$width-contacto-h2-small: 18.75rem;
 $width-opacidad: 100%;
 
 $height-proyectos-article-div: 17rem;
@@ -102,5 +109,5 @@ $breakpoints: (
   "large": "max-width: 1100px",
   "medium": "max-width: 850px",
   "narrow": "max-width: 600px",
-  "small": "max-width: 550px", 
+  "small": "max-width: 500px", 
 );
